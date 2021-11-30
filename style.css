@@ -1,0 +1,345 @@
+.nav-link{
+    font-family: lora;
+    text-transform: uppercase;
+}
+
+#navbarku{
+  display: block;
+  position: fixed;
+  transition: 0.5s;
+  width: 100%;
+  top: 70;
+  z-index: 1;
+}
+
+.navbar-default{
+  background-color:#586352;
+  ;
+}
+
+
+.jumbotron {
+background-size: cover;
+height: 750px;
+background-image: url(img/jeremy-bishop-fxhjyQSxDeE-unsplash.jpg);
+}
+
+.jumbotron .container{
+color: white !important;
+text-shadow: 1px 1px 1px rgb(0,0,0,0.7);
+font-family: lora;
+margin-top: 220px;
+}
+
+.workspace {
+  background-image: url(img/about.png);
+  background-size: cover;
+  height: 820px;
+  margin-top: -50px;
+  font-family: lora;
+  padding-top: 80px;
+}
+
+.workspace .container{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.workspace .awal{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.workspace .kedua{
+  font-weight: bolder;
+  font-size: 40px;
+}
+.workspace .row{
+  margin-top: auto;
+  text-align: center;
+}
+
+.workspace .row .col{
+  text-align: left;
+  margin: auto;
+}
+
+.workspace .img-fluid{
+  height: 170px;
+  width: 180px;
+  margin-left:auto;
+  margin-top: 10px;
+  
+}
+
+.workspace .desc1{
+  width: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: auto;
+  font-size: 16px;
+
+}
+
+.workspace .desc2{
+  width: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  font-size: 16px;
+}
+
+.post-slider {
+	padding: 90px 0px 100px;
+	background-color: #768D70;
+  font-family: lora;
+  height: 820px;
+  margin-top: -30px;
+}
+.post-slider .carousel-control-next, .carousel-control-prev {
+	width: auto;
+	top: 50%;
+	bottom: initial;
+}
+.post-slider .carousel-control-prev {
+	left: -40px;
+}
+.post-slider .carousel-control-next {
+	right: -40px;
+}
+.post-slider .carousel-indicators {
+	bottom: -120px;
+}
+.post-slider img {
+	border-radius: 50px;
+	border: 3px solid #ffffff;
+  border-style: dashed;
+}
+.post-slider h3 {
+	font-weight: 600;
+	font-size: 28px;
+	color: #ffffff;
+	border-bottom: 2px solid #b39cdb;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.post-slider ul {
+	list-style: none;
+	padding: 0;
+}
+.post-slider ul li {
+	padding-bottom: 10px;
+}
+.post-slider ul i {
+	font-size: 18px;
+	margin-right: 5px;
+	color: #ffffff;
+}
+
+.post-slider .col-md-6{
+  margin-right: -40px;
+}
+
+.post-slider .text-tittle .display-4{
+  text-align: center;
+  position:block;
+  margin-top: -50px;
+  font-size: 28px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+
+.priority{
+  text-align: center;
+  font-family: lora;
+  height: auto;
+  padding-top: 50px;
+}
+
+.priority .awal1{
+  margin-bottom: 50px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.priority .col-md-6 .desc3{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.priority .col-md-6 .desc4{
+  margin-bottom: 50px;
+}
+
+.contact{
+  height: auto;
+  font-family: lora;
+  background-color:#768D70 ;
+  padding-top: 60px;
+  color: white;
+}
+
+.contact .display-4{
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold ;
+}
+
+.contact .lead{
+  font-size: 18px;
+  margin-left: 20px;
+}
+/*-- Responsive CSS --*/
+@media (max-width: 767px) {
+
+  .post-slider {
+    padding: 100px 0px 100px;
+    background-color: #768D70;
+    font-family: lora;
+    height: auto;
+   
+  }
+  .post-slider .carousel-control-prev {
+		left: 0px;
+	}
+	.post-slider .carousel-control-next {
+		right: 0px;
+	}
+	.post-slider h3 {
+		font-size: 22px;
+	}
+  .post-slider .col-md-6{
+  text-align: center;
+  }
+  
+}
+
+@media (min-width: 992px) { 
+
+  #navbarku{
+    display: block;
+    position: fixed;
+    transition: 0.5s;
+    width: 100%;
+    top: 70;
+  }
+
+  .navbar-default{
+    background-color: transparent;
+  }
+  .navbar-default.scrolled{
+    background-color:#586352;
+    z-index: 1;
+  }
+	.nav-link{
+		color: white !important;
+		text-shadow: 1px 1px 1px rgb(0,0,0,0.7);
+	}
+	
+	.nav-link {
+		font-family: lora;
+		text-transform: uppercase;
+		margin-right: 30px;
+    font-size: 18px;
+    font-style: bold;
+	}
+  
+
+	.nav-link:hover::after{
+		display: block;
+		content: '';
+		border-bottom: 5px solid white;
+    border-radius: 2px;
+		width: 50%;
+		padding-bottom: 5px;
+		margin: auto;
+		margin-bottom: -10px;
+  
+	}
+
+	.jumbotron {
+		background-image: url(img/jeremy-bishop-fxhjyQSxDeE-unsplash.jpg);
+		height: 780px;
+		background-size:cover;
+  
+	}
+
+
+	.jumbotron .container{
+		color: white !important;
+		text-shadow: 1px 1px 1px rgb(0,0,0,0.7);
+		font-family: lora;
+		margin-top: 220px;
+		margin-left: 70px;
+	}
+
+	.jumbotron .display-4{
+		margin-bottom: 10px;
+    
+	}
+
+	.jumbotron .lead{
+		font-size: 18px;
+	}
+
+  .workspace .container{
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .workspace .row{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .workspace .row .col{
+    text-align: left;
+    margin: auto;
+    display: block;
+  }
+
+  .workspace .awal{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+  }
+  
+  .workspace .kedua{
+    font-weight: bolder;
+    font-size: 50px;
+  } 
+
+  .workspace .img-fluid{
+    height: 300px;
+    width: 300px;
+    margin-left: 120px;
+  }
+
+  .workspace .desc1{
+    width: 480px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-size: 18px;
+    text-align: left;
+  
+  }
+  
+  .workspace .desc2{
+    width: 480px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    font-size: 18px;
+    text-align: left;
+  }
+  .post-slider {
+    padding: 200px 0px 100px;
+    background-color: #768D70;
+    font-family: lora;
+    height: 820px;
+  }
+  
+}  
